@@ -21,8 +21,20 @@ p.caption {
 	text-align: center;
 	line-height: normal;
 	margin: 0;
+	margin-top: 10px;
+	float: right;
 }
-
+#gallery .figure img
+{
+	padding: 3px;
+	border: solid 1px black;
+	box-shadow: 5px 5px 20px;
+}
+#gallery .figure
+{
+	width: 200px;
+	text-align: center;
+}
 
 h1 {
 	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
